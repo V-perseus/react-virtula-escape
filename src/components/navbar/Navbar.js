@@ -1,46 +1,23 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { FaBars } from 'react-icons/fa';
-import { links } from './data';
-import './Navbar.css';
+import React from 'react'
 
-const Navbar = () => {
-  const [showLinks, setShowLinks] = useState(false);
-  const linksContainerRef = useRef(null);
-  const linksRef = useRef(null);
-  const toggleLinks = () => {
-    setShowLinks(!showLinks);
-  };
-  useEffect(() => {
-    const linksHeight = linksRef.current.getBoundingClientRect().height;
-    if (showLinks) {
-      linksContainerRef.current.style.height = `${linksHeight}px`;
-    } else {
-      linksContainerRef.current.style.height = '0px';
-    }
-  }, [showLinks]);
-  return (
-    <nav>
-      <div className='nav-center'>
-        <div className='nav-header'>
-          <button className='nav-toggle' onClick={toggleLinks}>
-            <FaBars />
-          </button>
+function Navbar() {
+    return (
+        <div className="navbar">
+            <nav>
+                <ul>
+                    <li>HOME</li>
+                    <li>VIRTUAL ESCAPE GAMES</li>
+                    <li>TO DO LIST BEFORE YOU PLAY</li>
+                    <li>BLOG</li>
+                    <li>SCHEDULE</li>
+                </ul>
+                <ul>
+                    <li>SIGN UP</li>
+                    <li>LOG IN</li>
+                </ul>
+            </nav>
         </div>
-        <div className='links-container' ref={linksContainerRef}>
-          <ul className='links' ref={linksRef}>
-            {links.map((link) => {
-              const { id, url, text } = link;
-              return (
-                <li key={id}>
-                  <a href={url}>{text}</a>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-      </div>
-    </nav>
-  );
-};
+    )
+}
 
-export default Navbar;
+export default Navbar
