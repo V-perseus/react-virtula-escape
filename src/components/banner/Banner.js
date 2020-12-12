@@ -1,6 +1,6 @@
 import React from 'react';
 import './Banner.css';
-import logo from '../../assets/logo.jpg';
+import logo from '../../assets/logo.svg';
 
 const Banner = () => {
   let squares = [];
