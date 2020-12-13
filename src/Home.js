@@ -11,7 +11,7 @@ import Footer from './components/footer/Footer';
 function Home() {
     return (
             <div className="homepage">
-                <div className="background">
+                <div className="background container-fluid">
                     <div className="text-1">
                         <h1>UNIQUE EXPERIENCE OF GAME THAT SEEMS LIKE REALITY!</h1>
                     </div>
