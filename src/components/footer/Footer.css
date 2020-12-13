@@ -1,0 +1,15 @@
+.footer {
+  color: #10b9e7;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../assets/exit.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.footer h1 {
+  font-size: 5rem;
+  color: #10b9e7;
+}
+.footer-logo img {
+  width: 20rem;
+}

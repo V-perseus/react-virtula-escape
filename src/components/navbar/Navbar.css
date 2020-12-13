@@ -1,22 +1,5 @@
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 10vh;
-  background-color: aqua;
-  color: black;
-}
-.nav-links {
-  width: 70%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-}
-.sign-up {
-  width: 10%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
+.navbar {
+  background-color: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }

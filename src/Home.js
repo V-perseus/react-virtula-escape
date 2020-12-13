@@ -1,20 +1,16 @@
 import React from 'react';
-import Banner from './components/banner/Banner';
-import Navbar from './components/navbar/Navbar';
 import LabEscape from './components/gamelists/LabEscape';
 import teamwork from './assets/teamwork.png';
 import clock from './assets/clock.png';
 import heart from './assets/heart.png';
 import Testimonial from './components/testimonial/Testimonial';
 import Blog from './components/blog/Blog';
-import './App.css';
+import './Home.css';
+import Footer from './components/footer/Footer';
 
 function Home() {
     return (
-       
             <div className="homepage">
-                <Banner />
-                <Navbar />
                 <div className="background">
                     <div className="text-1">
                         <h1>UNIQUE EXPERIENCE OF GAME THAT SEEMS LIKE REALITY!</h1>
@@ -37,34 +33,45 @@ function Home() {
                         <h1>HOW IT WORKS?</h1>
                     </div>
                 </div>
-                <div className="main-desc container">
-                    <div className="d-flex row p-0 m-0">
-                        <div className="first col-md-4 col-12 d-flex justify-content-center align-items-center">
-                            <div className="text-center">
-                                <img src={teamwork}></img>
-                                <h1>Working with your team is the only way out.</h1>
-                                <p>These team building games are designed to enable you to work efficiently with your team to be able to succeed. The only way you succeed in these games is your work with your team to find your way out.</p>
+                <div className="how-work">
+                    <div className="main-desc container">
+                        <div className="d-flex row p-0 m-0">
+                            <div className="first col-md-4 col-12 d-flex justify-content-center align-items-center">
+                                <div className="text-center">
+                                    <img src={teamwork}></img>
+                                    <h1>Working with your team is the only way out.</h1>
+                                    <p>These team building games are designed to enable you to work efficiently with your team to be able to succeed. The only way you succeed in these games is your work with your team to find your way out.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="second col-md-4 col-12 d-flex justify-content-center align-items-center">
-                            <div className="text-center">
-                                <img src={clock}></img>
-                                <h1>The clock is ticking...</h1>
-                                <p>Working effectively is one thing, but working efficiently and is a totally different game. These games are timed with a maximum number of minutes to complete. You need to be an effective and efficient team to complete successfully on-time.</p>
+                            <div className="second col-md-4 col-12 d-flex justify-content-center align-items-center">
+                                <div className="text-center">
+                                    <img src={clock}></img>
+                                    <h1>The clock is ticking...</h1>
+                                    <p>Working effectively is one thing, but working efficiently and is a totally different game. These games are timed with a maximum number of minutes to complete. You need to be an effective and efficient team to complete successfully on-time.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="third col-md-4 col-12 d-flex justify-content-center align-items-center">
-                            <div className="text-center">
-                                <img src={heart}></img>
-                                <h1>Feel the atmosphere.</h1>
-                                <p>Our Team Building games are 3D games, with a complex setup, and it is not just like a physical escape room where the setup is the same every time. Our games changes depending on your level, your team behavior, and is designed to improve the certain team and individual skillset. They look great too.</p>
+                            <div className="third col-md-4 col-12 d-flex justify-content-center align-items-center">
+                                <div className="text-center">
+                                    <img src={heart}></img>
+                                    <h1>Feel the atmosphere.</h1>
+                                    <p>Our Team Building games are 3D games, with a complex setup, and it is not just like a physical escape room where the setup is the same every time. Our games changes depending on your level, your team behavior, and is designed to improve the certain team and individual skillset. They look great too.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <Testimonial className="testimonial"/>
-                <Blog />
-                
+                <div className="blog-post container-fluid">
+                    <div className="row d-flex p-0 m-0">
+                        <div className="col-md-12 d-flex justify-content-center align-items-center">
+                            <div className="text-center mb-5">
+                                <h1>LATEST BLOG POSTS</h1>
+                            </div>
+                        </div> 
+                        <Blog />
+                    </div>
+                </div>
+                <Footer />
             </div>
     )
 }
