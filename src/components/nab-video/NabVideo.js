@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactAwesomePlayer from 'react-awesome-player'
 import video_over_img from '../../assets/bg-wave-sym.png'
-import './VideoPlayer.css';
+import './NabVideo.css';
 
 export default class App extends React.Component {
   state = {
     options: {
-      poster: "https://virtual-escape.encade.org/wp-content/uploads/2018/10/Front_1600x968.jpg",
+      poster: "https://virtual-escape.encade.org/wp-content/uploads/2018/10/Frontdoor-1600x968-1.png",
       sources: [{
         type: "video/mp4",
         src: "https://cdn.theguardian.tv/webM/2015/07/20/150716YesMen_synd_768k_vp8.webm"

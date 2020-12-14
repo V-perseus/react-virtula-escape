@@ -6,7 +6,6 @@ import heart from './assets/heart.png';
 import Testimonial from './components/testimonial/Testimonial';
 import Blog from './components/blog/Blog';
 import './Home.css';
-import Footer from './components/footer/Footer';
 
 function Home() {
     return (
@@ -71,7 +70,6 @@ function Home() {
                         <Blog />
                     </div>
                 </div>
-                <Footer />
             </div>
     )
 }

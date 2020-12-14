@@ -1,6 +1,6 @@
 import React from 'react';
-import VideoPlayer from './components/video-player/VideoPlayer';
-import CastleSlider from './components/castle-img-slide/CastleSlider';
+import NabVideo from './components/nab-video/NabVideo';
+import NabSlide from './components/nab-img-slider/NabSlide';
 import {VscLock} from 'react-icons/vsc';
 import {VscUnlock} from 'react-icons/vsc';
 import {GrGroup} from 'react-icons/gr';
@@ -10,20 +10,19 @@ import {AiTwotoneMail} from 'react-icons/ai';
 import {Button} from 'react-bootstrap';
 import Chart from './components/game-skill/Chart';
 import Calendar from './components/calender/Calendar';
-import Footer from './components/footer/Footer';
 import './Nab.css';
 
 function Nab() {
     return (
         <div>
             <div className="castle">
-                <CastleSlider />
+                <NabSlide />
             </div>
             <div className="video mb-5">
                 <div className="title d-flex justify-content-center align-items-center">
-                    
+                    <div className="h1 pb-2">How does it look like?</div>
                 </div>
-                <VideoPlayer />
+                <NabVideo />
             </div>
             <div className="container-fluid">
                 <div className="row p-0 m-0">
@@ -129,7 +128,6 @@ function Nab() {
                         <Calendar />
                     </div>
                 </div>
-                <Footer />
             </div>
         </div>
     )

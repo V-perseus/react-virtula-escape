@@ -11,7 +11,6 @@ import {AiTwotoneMail} from 'react-icons/ai';
 import {Button} from 'react-bootstrap';
 import Chart from './components/game-skill/Chart';
 import Calendar from './components/calender/Calendar';
-import Footer from './components/footer/Footer';
 //import GameDetail from './components/game-detail/GameDetail';
 
 function Castle() {
@@ -22,7 +21,7 @@ function Castle() {
             </div>
             <div className="video mb-5">
                 <div className="title d-flex justify-content-center align-items-center">
-                    
+                    <div className="h1 pb-2">How does it look like?</div>
                 </div>
                 <VideoPlayer />
             </div>
@@ -131,7 +130,6 @@ function Castle() {
                         <Calendar />
                     </div>
                 </div>
-                <Footer />
             </div>
         </div>
     )

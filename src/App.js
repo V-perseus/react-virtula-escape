@@ -3,9 +3,11 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Banner from './components/banner/Banner';
 import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
 import Castle from './Castle';
 import Home from './Home';
 import Nab from './Nab';
+import FAQ from './FAQ';
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
       <Navbar />
       {/* <Home /> */}
       {/* <Castle /> */}
-      <Nab />
+      {/* <Nab /> */}
+      <FAQ />
+      <Footer />
       <Switch>
         <Route></Route>
       </Switch>
