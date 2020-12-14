@@ -5,6 +5,7 @@ import Banner from './components/banner/Banner';
 import Navbar from './components/navbar/Navbar';
 import Castle from './Castle';
 import Home from './Home';
+import Nab from './Nab';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Banner />
       <Navbar />
       {/* <Home /> */}
-      <Castle />
+      {/* <Castle /> */}
+      <Nab />
       <Switch>
         <Route></Route>
       </Switch>

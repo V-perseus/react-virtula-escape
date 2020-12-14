@@ -1,7 +1,6 @@
 import React from 'react';
-import CastleSlider from './components/castle-img-slide/CastleSlider';
-import './Castle.css';
 import VideoPlayer from './components/video-player/VideoPlayer';
+import CastleSlider from './components/castle-img-slide/CastleSlider';
 import {VscLock} from 'react-icons/vsc';
 import {VscUnlock} from 'react-icons/vsc';
 import {GrGroup} from 'react-icons/gr';
@@ -12,9 +11,9 @@ import {Button} from 'react-bootstrap';
 import Chart from './components/game-skill/Chart';
 import Calendar from './components/calender/Calendar';
 import Footer from './components/footer/Footer';
-//import GameDetail from './components/game-detail/GameDetail';
+import './Nab.css';
 
-function Castle() {
+function Nab() {
     return (
         <div>
             <div className="castle">
@@ -26,7 +25,6 @@ function Castle() {
                 </div>
                 <VideoPlayer />
             </div>
-            {/* <GameDetail /> */}
             <div className="container-fluid">
                 <div className="row p-0 m-0">
                     <div className="row p-0 m-0 col-md-12 d-flex justify-content-center align-items-center">
@@ -137,4 +135,4 @@ function Castle() {
     )
 }
 
-export default Castle
+export default Nab
