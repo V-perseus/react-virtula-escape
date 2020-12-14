@@ -11,6 +11,7 @@
     "react-awesome-player": "^1.1.0",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
+    "react-google-charts": "^3.0.15",
     "react-icons": "^4.1.0",
     "react-read-more-read-less": "^1.0.7",
     "react-responsive-carousel": "^3.2.11",

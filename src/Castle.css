@@ -7,3 +7,58 @@
   margin: 0 !important;
   color: aqua;
 }
+.lock {
+  color: rgb(9, 0, 128);
+  width: 50px;
+  height: 50px;
+}
+.unlock {
+  color: red;
+  width: 50px;
+  height: 50px;
+}
+.group {
+  color: rgb(25, 230, 25);
+  width: 50px;
+  height: 50px;
+}
+.number h3 {
+  font-size: 50px;
+}
+.difficulty h1,
+.player h1,
+.time h1 {
+  font-size: 4rem;
+  color: rgb(10, 173, 173);
+}
+.clock {
+  color: rgb(7, 95, 7);
+  width: 50px;
+  height: 50px;
+}
+.lock-items {
+  margin-bottom: 8rem !important;
+}
+.level {
+  margin-bottom: 7rem !important;
+}
+.phone {
+  color: rgb(25, 230, 25);
+  width: 30px;
+  height: 30px;
+}
+.mail {
+  color: rgb(25, 230, 25);
+  width: 30px;
+  height: 30px;
+}
+.minute {
+  margin-bottom: 8rem;
+}
+.contact-information {
+  margin-bottom: 12rem !important;
+}
+.button {
+  width: 12rem;
+  border-radius: 20px;
+}
