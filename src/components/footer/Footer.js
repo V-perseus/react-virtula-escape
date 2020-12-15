@@ -25,10 +25,11 @@ function footer() {
                     <div className="links col-md-6 row p-0 m-0 d-flex justify-content-center align-items-center">
                         <div className="text-left footer-text">
                             <h2 className="mb-5">USEFUL LINKS</h2>
-                            <p><Link to ="/dashboard">Dashboard</Link></p>
-                            <p><Link to ="/todo-list">To do list before you play</Link></p>
-                            <p><Link to ="/game-list">Game list</Link></p>
+                            <p><Link to ="/">Home</Link></p>
+                            <p><Link to ="/to-do">To do list before you play</Link></p>
+                            <p><Link to ="/faq">FAQ</Link></p>
                             <p><Link to ="/schedule">Schedule</Link></p>
+                            <p><Link to ="/dashboard">Dashboard</Link></p>
                         </div>
                     </div>
                     <div className="footer-logo col-md-12 row p-0 m-0 d-flex justify-content-center align-items-center mt-5 mb-3">

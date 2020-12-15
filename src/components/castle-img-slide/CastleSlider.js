@@ -4,7 +4,7 @@ import './CastleSlider.css';
 function CastleSlider() {
     return (
         <div>
-            <header class="cont-slider">
+            <header class="cont-slider3">
                 <section class="slider">
                     <article class="slide3 one"><span>Castle Escape 1</span></article>
                     <article class="slide3 two"><span>Castle Escape 2</span></article>

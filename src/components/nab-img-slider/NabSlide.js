@@ -4,7 +4,7 @@ import './NabSlide.css';
 function NabSlide() {
     return (
         <div>
-            <header class="cont-slider">
+            <header class="cont-slider2">
                 <section class="slider">
                     <article class="slide2 six"><span>Lab Escape 1</span></article>
                     <article class="slide2 seven"><span>Lab Escape 2</span></article>

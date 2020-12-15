@@ -32,10 +32,10 @@
   height: 50px;
 }
 .lock-items {
-  margin-bottom: 6rem !important;
+  margin-bottom: 9rem !important;
 }
 .level {
-  margin-bottom: 10rem !important;
+  margin-bottom: 13rem !important;
 }
 .phone {
   color: rgb(25, 230, 25);
@@ -57,13 +57,13 @@
   width: 12rem;
   border-radius: 20px;
 }
-.schedule-games {
-  background: url(./assets/heading.png) !important;
-}
-.calender {
+/* .calender {
   overflow-y: scroll;
   height: 613px;
-}
+} */
 .time-clock {
   margin-bottom: 5rem !important;
+}
+.castle-button {
+  margin-top: 4rem !important;
 }

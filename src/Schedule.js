@@ -1,27 +1,28 @@
 import React from 'react';
+import Calendar from './components/calender/Calendar';
 import './Schedule.css';
 
 
 function Schedule() {
     return (
         <div>
-            <div className="container-fluid faq p-0 m-0 ">
-            <div className="faq-bg">
-                <h1>FAQ</h1>
-            </div>
-            <div className="container mt-5 mb-5">
-                <div className="row p-0 m-0">
-                    <div className="faq-title col-md-12 justify-content-center align-items-center d-flex">
-                        <div className="text-center description">
-                            <p>Here is the list of some most common questions. If you have any other questions please feel free to contact out us!</p>
+            <div className="container-fluid schedule p-0 m-0 ">
+                <div className="schedule-bg">
+                    <h1>Schedule Games</h1>
+                </div>
+                <div className="schedule-title mt-5 mb-5">
+                    <div className="row p-0 m-0">
+                        <div className="col-md-12 d-flex justify-content-center align-items-center">
+                            <div className="text-shedule">
+                                <h1>Schedule Games</h1>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className="faq-detail mt-5">
-                    {/* <FaqMain /> */}
+                <div className="calendar-schedule mb-5">
+                    <Calendar />
                 </div>
             </div>
-        </div>
         </div>
     )
 }

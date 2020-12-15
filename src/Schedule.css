@@ -1,0 +1,17 @@
+.schedule-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
+    url(./assets/escape_room.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.schedule-bg h1 {
+  font-size: 4rem;
+  color: white;
+  padding-top: 5rem;
+  padding-bottom: 50rem;
+  padding-left: 10rem;
+}
+.calendar-schedule {
+  overflow-y: scroll;
+  height: 613px;
+}

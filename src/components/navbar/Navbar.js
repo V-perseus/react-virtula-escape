@@ -16,39 +16,49 @@ function Navbar() {
     }, []);
     return (
         <nav class="navbar bg-dark-theme navbar-expand-md navbar-medium sticky-top">
+            {/* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> */}
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                        <Link to="/" class="nav-link" >Home <span class="sr-only">(current)</span></Link>
                     </li>
                     <li class="nav-item dropdown ">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <Link to="#" class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Virtual Escape Games
-                        </a>
+                        </Link>
                         <div class="dropdown-menu bg-dark-theme" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="/lab-escape">Lab Escape</a>
-                            <a class="dropdown-item" href="/castle-escape">Castle Escape</a>
+                            <Link to="/lab-escape" class="dropdown-item">Lab Escape</Link>
+                            <Link to="/castle-escape" class="dropdown-item" >Castle Escape</Link>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/to-do">To do list before you play</a>
+                        <Link to="/to-do" class="nav-link" >To do list before you play</Link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="blog">Blog</a>
+                        <Link to="faq" class="nav-link" >FAQ</Link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/schedule">Schedule</a>
+                        <Link to="/schedule" class="nav-link" >Schedule</Link>
                     </li>
+                    <li class="nav-item">
+                        <Link to="/dashboard" class="nav-link" >Dashboard</Link>
+                    </li>
+                </ul>
+                <ul  class="navbar-nav mr-auto">
+                    <li class="nav-item"><Link to="/login">Login</Link></li>
+                    <li class="nav-item"><Link to="/signup">Sign Up</Link></li>
                 </ul>
             </div>
             <div className="login row p-0 m-0">
-                <ul>
-                    <li><Link to="/login">Login</Link></li>
-                    <li><Link to="/signup">Sign Up</Link></li>
-                </ul>
+                
             </div>
         </nav>
     )

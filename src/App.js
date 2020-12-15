@@ -10,22 +10,29 @@ import Nab from './Nab';
 import FAQ from './FAQ';
 import GameList from './GameList';
 import ToDoList from './ToDoList';
+import Schedule from './Schedule';
 
 function App() {
   return (
     <Router>
       <Banner />
       <Navbar />
-      {/* <Home /> */}
+      {/* <Home />
       <Castle />
-      {/* <Nab /> */}
-      {/* <FAQ /> */}
-      {/* <GameList /> */}
-      {/* <ToDoList /> */}
-      <Footer />
+      <Nab />
+      <FAQ />
+      <GameList />
+      <ToDoList />
+      <Schedule /> */}
       <Switch>
-        <Route></Route>
+        <Route path="/" exact component={Home} />
+        <Route path="/lab-escape" component={Nab}/>
+        <Route path="/castle-escape" component={Castle}/>
+        <Route path="/to-do" component={ToDoList}/>
+        <Route path="/faq" component={FAQ}/>
+        <Route path="/schedule" component={Schedule}/>
       </Switch>
+      <Footer />
     </Router>
   );
 }

@@ -3,12 +3,10 @@ import {Card, Container, Col, Row} from 'react-bootstrap';
 import lab from '../../assets/lab.jpg';
 import castle from '../../assets/castle.jpg';
 import styled from 'styled-components';
-import ReactReadMoreReadLess from "react-read-more-read-less";
 import {FaLock} from 'react-icons/fa';
 import {BsPeopleFill} from 'react-icons/bs';
 import {AiOutlineClockCircle} from 'react-icons/ai';
 import {ImLocation2} from 'react-icons/im';
-import './LabEscape';
 
 const Styles = styled.div`
     .image {
@@ -72,7 +70,7 @@ const Styles = styled.div`
 function LabEscape() {
     return (
         <Styles>
-            <Container fluid>
+            <Container>
                 <Row className="justify-content-md-center">
                     <Col md={12} className="d-flex mb-10">
                         <Row>
