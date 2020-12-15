@@ -5,3 +5,10 @@
 .card img {
   height: 20rem;
 }
+.card-deck {
+  margin: 0 !important;
+  background: #1b1b1b;
+}
+.card-title .card-text {
+  color: white !important;
+}

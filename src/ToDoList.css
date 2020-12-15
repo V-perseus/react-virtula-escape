@@ -1,10 +1,10 @@
-.faq-bg {
+.todo-bg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
     url(./assets/escape_room.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-.faq-bg h1 {
+.todo-bg h1 {
   color: rgb(200, 185, 214) !important;
   padding-top: 5rem;
   padding-bottom: 50rem;

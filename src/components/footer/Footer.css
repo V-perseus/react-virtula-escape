@@ -7,9 +7,12 @@
   background-attachment: fixed;
 }
 .footer h1 {
-  font-size: 3rem;
-  color: #10b9e7;
+  font-size: 4rem;
+  color: white;
 }
 .footer-logo img {
   width: 20rem;
+}
+.footer-text {
+  color: #007bff !important;
 }

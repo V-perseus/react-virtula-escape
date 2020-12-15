@@ -20,7 +20,7 @@ body {
   margin: 0 auto;
   overflow: hidden;
 }
-.slider {
+.slider3 {
   animation: sliding 25s ease-out 0s backwards infinite;
   position: absolute;
   left: 0;
@@ -28,7 +28,7 @@ body {
   width: 500%;
   height: 100%;
 }
-.slide {
+.slide3 {
   display: inline-block;
   position: relative;
   width: 20%;
@@ -37,7 +37,7 @@ body {
   background-position: center center;
   background-size: cover;
 }
-.slide span {
+.slide3 span {
   background: rgba(0, 0, 0, 0.3);
   border-radius: 0 5vh 5vh 0;
   color: rgb(211, 230, 40);

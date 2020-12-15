@@ -8,6 +8,8 @@ import Castle from './Castle';
 import Home from './Home';
 import Nab from './Nab';
 import FAQ from './FAQ';
+import GameList from './GameList';
+import ToDoList from './ToDoList';
 
 function App() {
   return (
@@ -15,9 +17,11 @@ function App() {
       <Banner />
       <Navbar />
       {/* <Home /> */}
-      {/* <Castle /> */}
+      <Castle />
       {/* <Nab /> */}
-      <FAQ />
+      {/* <FAQ /> */}
+      {/* <GameList /> */}
+      {/* <ToDoList /> */}
       <Footer />
       <Switch>
         <Route></Route>

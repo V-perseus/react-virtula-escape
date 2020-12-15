@@ -36,7 +36,7 @@
   width: 50px;
   height: 50px;
 }
-.lock-items {
+.lock-items-nab {
   margin-bottom: 6rem !important;
 }
 .level {
@@ -52,11 +52,11 @@
   width: 30px;
   height: 30px;
 }
-.minute {
+.minute-nab {
   margin-bottom: 5rem;
 }
-.contact-information {
-  margin-bottom: 14rem !important;
+.contact-information-nab {
+  margin-bottom: 16rem !important;
 }
 .button {
   width: 12rem;
@@ -68,4 +68,7 @@
 .calender {
   overflow-y: scroll;
   height: 613px;
+}
+.time-clock-nab {
+  margin-bottom: 5rem !important;
 }

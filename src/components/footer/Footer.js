@@ -14,7 +14,7 @@ function footer() {
                         </div>
                     </div>
                     <div className="adress col-md-6 row p-0 m-0 d-flex justify-content-center align-items-center">
-                        <div className="text-left">
+                        <div className="text-left footer-text">
                             <h2 className="mb-5">OUR ADDRESS</h2>
                             <p>ENCADE Corporation</p>
                             <p>https://encade.org</p>
@@ -23,11 +23,11 @@ function footer() {
                         </div>
                     </div>
                     <div className="links col-md-6 row p-0 m-0 d-flex justify-content-center align-items-center">
-                        <div className="text-left">
+                        <div className="text-left footer-text">
                             <h2 className="mb-5">USEFUL LINKS</h2>
                             <p><Link to ="/dashboard">Dashboard</Link></p>
-                            <p><Link to ="/v-e games">Virtual Escape Games</Link></p>
-                            <p><Link to ="/blog">Blog</Link></p>
+                            <p><Link to ="/todo-list">To do list before you play</Link></p>
+                            <p><Link to ="/game-list">Game list</Link></p>
                             <p><Link to ="/schedule">Schedule</Link></p>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ function footer() {
                         </div>
                     </div>
                     <div className="footer-logo col-md-12 row p-0 m-0 d-flex justify-content-center align-items-center mb-5">
-                        <div className="text-center">
+                        <div className="text-center footer-text">
                             <p>Copyright © 2020 ENCADE Corporation | All Rights Reserved</p>
                         </div>
                     </div>

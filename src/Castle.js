@@ -20,8 +20,7 @@ function Castle() {
                 <CastleSlider />
             </div>
             <div className="video mb-5">
-                <div className="title d-flex justify-content-center align-items-center">
-                    <div className="h1 pb-2">How does it look like?</div>
+                <div className="title-castle d-flex justify-content-center align-items-center">
                 </div>
                 <VideoPlayer />
             </div>
@@ -59,6 +58,7 @@ function Castle() {
                                 </div>
                             </div>
                             <div className="col-md-12  justify-content-center align-items-center">
+                                <h3 className="mt-5">Target Skills</h3>
                                 <Chart />
                             </div>
                         </div>
@@ -67,7 +67,7 @@ function Castle() {
                                 <h1 className="text-center">TIME</h1>
                             </div>
                             <div className="col-md-12 d-flex justify-content-center text-right align-items-center row p-0 m-0">
-                                <div className="col-md-12 row p-0 m-0">
+                                <div className="col-md-12 row p-0 m-0 time-clock">
                                     <div className="col-md-6 col-6">
                                         <BiTime className="clock" />
                                     </div>

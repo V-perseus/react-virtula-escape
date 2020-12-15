@@ -28,7 +28,7 @@ body {
   width: 500%;
   height: 100%;
 }
-.slide {
+.slide2 {
   display: inline-block;
   position: relative;
   width: 20%;
@@ -37,7 +37,7 @@ body {
   background-position: center center;
   background-size: cover;
 }
-.slide span {
+.slide2 span {
   background: rgba(0, 0, 0, 0.3);
   border-radius: 0 5vh 5vh 0;
   color: rgb(211, 230, 40);
@@ -49,23 +49,23 @@ body {
   border: 1px solid rgba(194, 238, 72, 0.45);
   border-left: 0 none;
 }
-.one {
+.six {
   background-image: url(../../assets/lab.jpg);
   background-size: 100% 100%;
 }
-.two {
+.seven {
   background-image: url(../../assets/lab1.png);
   background-size: 100% 100%;
 }
-.three {
+.eight {
   background-image: url(../../assets/lab2.jpg);
   background-size: 100% 100%;
 }
-.four {
+.nine {
   background-image: url(../../assets/lab5.png);
   background-size: 100% 100%;
 }
-.five {
+.ten {
   background-image: url(../../assets/lab3.png);
   background-size: 100% 100%;
 }

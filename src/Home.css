@@ -3,56 +3,56 @@
     url(./assets/door.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  position: relative;
 }
 .text-1 {
-  color: aquamarine;
-  width: 30rem;
-  position: absolute;
-  left: 10rem;
-  top: 300px;
+  color: white;
+  padding-top: 8rem;
+  padding-bottom: 20rem;
+  padding-left: 8rem;
 }
 .text-2 {
-  color: aquamarine;
-  width: 30rem;
-  position: absolute;
-  bottom: 30px;
-  left: 44rem;
+  color: white;
+  padding-top: 20rem;
+  padding-bottom: 2rem;
 }
 .bg-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(./assets/webpage.jpeg);
   height: 60vh;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-attachment: fixed;
+}
+.text-3 {
+  color: white;
 }
 .space {
   background-color: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
   height: 13rem;
-  color: #10b9e7;
   display: flex;
   text-align: center;
   align-items: center;
 }
 .space h1 {
-  font-size: 5rem;
-  margin: 0;
+  font-size: 4rem;
+  margin: 30px;
   padding: 0;
 }
 .question {
   width: 100%;
+  background-color: #2c2a2c;
+  color: white;
 }
-.how-work {
-  background-image: url(./assets/abstract.png);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+.first {
+  border-right: 3px solid black;
+}
+.third {
+  border-left: 3px solid black;
 }
 .main-list {
   background-image: url(./assets/moon.jpg);
 }
 .list {
-  background-image: linear-gradient(315deg, #2d3436 0%, #d3d3d3 74%);
   text-align: center;
   align-items: center;
   padding-bottom: 90px;
@@ -60,11 +60,7 @@
 .bright {
   background-image: linear-gradient(315deg, #fad0c4 0%, #f1a7f1 74%);
 }
-.title {
-  width: 100%;
-  padding-top: 40px;
-  margin-bottom: 40px;
-}
+
 .main-desc > .first {
   height: 30%;
   border-right: soild 3px black;
@@ -77,6 +73,13 @@
 }
 .blog-post {
   background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
-  padding-top: 4rem;
-  padding-bottom: 5rem;
+}
+.blog-post h1 {
+  font-size: 4rem;
+  color: white;
+  margin: 30px;
+  padding: 0;
+}
+.bg-control {
+  background-color: #2c2a2d !important;
 }

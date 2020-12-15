@@ -5,25 +5,39 @@ import clock from './assets/clock.png';
 import heart from './assets/heart.png';
 import Testimonial from './components/testimonial/Testimonial';
 import Blog from './components/blog/Blog';
+import arrow from './assets/go_down_arrow.gif'
 import './Home.css';
 
 function Home() {
     return (
             <div className="homepage">
                 <div className="background container-fluid">
-                    <div className="text-1">
-                        <h1>UNIQUE EXPERIENCE OF GAME THAT SEEMS LIKE REALITY!</h1>
+                    <div className="row p-0 m-0">
+                        <div className="col-md-5 col-12 d-flex justify-content-center align-items-center">
+                            <div className="text-center text-1">
+                                <h1>UNIQUE EXPERIENCE OF GAME THAT SEEMS LIKE REALITY!</h1>
+                            </div>
+                        </div>
                     </div>
-                    <div className="text-2">
-                        <h1 className="text-center">GATHER THE TEAM AND FIND THE EXIT</h1>
+                    <div className="row p-0 m-0">
+                        <div className="col-md-4 offset-md-4 col-12 d-flex justify-content-center align-items-center">
+                            <div className="text-center text-2">
+                                <h1>GATHER THE TEAM AND FIND THE EXIT</h1>
+                                <img src={arrow} alt=""/>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div className="main-list">
+                <div className="main-list pt-5">
                     <div className="container list">
-                    <div className="title">
-                        <h1>Featured Virtual Escape Games</h1>
-                    </div>
-                    <LabEscape />
+                        <div className="row p-0 m-0">
+                            <div className="col-md-12 d-flex justify-content-center align-items-center mb-5">
+                                <div className="text-center text-3">
+                                    <h1>Featured Virtual Escape Games</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <LabEscape />
                     </div>
                 </div>
                 <div className="bg-1"></div>
@@ -32,7 +46,7 @@ function Home() {
                         <h1>HOW IT WORKS?</h1>
                     </div>
                 </div>
-                <div className="how-work">
+                <div className="how-work mt-5">
                     <div className="main-desc container">
                         <div className="d-flex row p-0 m-0">
                             <div className="first col-md-4 col-12 d-flex justify-content-center align-items-center">
@@ -60,10 +74,10 @@ function Home() {
                     </div>
                 </div>
                 <Testimonial className="testimonial"/>
-                <div className="blog-post container-fluid">
+                <div className="blog-post container-fluid p-0 m-0">
                     <div className="row d-flex p-0 m-0">
-                        <div className="col-md-12 d-flex justify-content-center align-items-center">
-                            <div className="text-center mb-5">
+                        <div className="col-md-12 d-flex justify-content-center align-items-center p-0 m-0 bg-control">
+                            <div className="text-center">
                                 <h1>LATEST BLOG POSTS</h1>
                             </div>
                         </div> 
