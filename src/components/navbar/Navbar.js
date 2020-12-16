@@ -16,15 +16,15 @@ function Navbar() {
     }, []);
     return (
         <nav class="navbar bg-dark-theme navbar-expand-md navbar-medium sticky-top">
-            {/* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button> */}
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
             </button>
+            {/* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button> */}
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item active">
@@ -53,8 +53,8 @@ function Navbar() {
                     </li>
                 </ul>
                 <ul  class="navbar-nav mr-auto">
-                    <li class="nav-item"><Link to="/login">Login</Link></li>
-                    <li class="nav-item"><Link to="/signup">Sign Up</Link></li>
+                    <li class="nav-item"><Link to="/login" class="nav-link">Login</Link></li>
+                    <li class="nav-item"><Link to="/signup" class="nav-link">Sign Up</Link></li>
                 </ul>
             </div>
             <div className="login row p-0 m-0">
