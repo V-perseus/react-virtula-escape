@@ -64,6 +64,8 @@ const Styles = styled.div`
             opacity: 0;
         }
     }
+    
+
 `
 
 
@@ -74,10 +76,10 @@ function LabEscape() {
                 <Row className="justify-content-md-center">
                     <Col md={12} className="d-flex mb-10">
                         <Row>
-                            <Col className="p-0 m-0" xs={12} md={8}>
+                            <Col className="p-0 m-0" xs={12} lg={8}>
                                 <Card.Img className="image py-md-5" variant="top" src={lab} />
                             </Col>
-                            <Col className="p-0 m-0 detail" xs={12} md={4}>
+                            <Col className="p-0 m-0 detail" xs={12} lg={4}>
                                 <Card  className="desc rounded-0 card-con" style={{ height: '35rem' }}>
                                     <Card.Body className="py-5 px-3" >
                                         <div className="key-con pb-4">
@@ -106,7 +108,7 @@ function LabEscape() {
                                         </Card.Subtitle>
                                         <Card.Text className="text-gray-card">
                                             <p>LAB ESCAPE is a virtual team escape room focusing on improving team communication, collaboration, and problem-solving skills. It is a fun and challenging team-building exercise. It is designed to involve everyone in the team and harness the power of all.
-                                                The story goes when a brave scientist keeps working in a lab in which they were designing a meteoroid-destruction laser to destroy a fast approaching meteoroid that will collide with the earth in a few hours.</p>
+                                                </p>
                                         </Card.Text>
                                         <Card.Link>
                                             <button className="ripple mr-2" data-ripple-color="#ffffff">Practice Now</button>
@@ -119,7 +121,7 @@ function LabEscape() {
                     </Col>
                     <Col md={12} className="d-flex">
                         <Row>
-                            <Col className="p-0 m-0 detail" xs={12} md={4}>
+                            <Col className="p-0 m-0 detail" xs={12} lg={4}>
                                 <Card  className="desc rounded-0 card-con" style={{ height: '35rem' }}>
                                     <Card.Body className="py-5 px-3" >
                                         <div className="key-con pb-4">
@@ -148,7 +150,7 @@ function LabEscape() {
                                         </Card.Subtitle>
                                         <Card.Text className="text-gray-card">
                                             <p>CASTLE ESCAPE is a virtual escape room is designed for a larger team-building exercise and intended to harness and improve the different team and individual skills, such as negotiation, teamwork, problem-solving, communication, creativity, and risk-taking.
-                                                The story starts when people trapped in wormholes that started appearing around the world, which transported the individuals to the prison of an abandoned/destroyed castle. In an attempt to get out of the dungeon, players. </p>
+                                                 </p>
                                         </Card.Text>
                                         <Card.Link>
                                             <button className="ripple mr-2" data-ripple-color="#ffffff">Practice Now</button>
@@ -157,7 +159,7 @@ function LabEscape() {
                                     </Card.Body>
                                 </Card>
                             </Col>
-                            <Col className="p-0 m-0" xs={12} md={8}>
+                            <Col className="p-0 m-0" xs={12} lg={8}>
                                 <Card.Img className="image py-md-5" variant="top" src={castle} />
                             </Col>
                         </Row>

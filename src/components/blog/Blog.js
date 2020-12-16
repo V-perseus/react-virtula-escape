@@ -18,9 +18,6 @@ function blog() {
                         additional content. This content is a little bit longer.
                     </Card.Text>
                 </Card.Body>
-                <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
-                </Card.Footer>
             </Card>
             <Card>
                 <Card.Img variant="top" src={blog2} />
@@ -31,9 +28,6 @@ function blog() {
                         content.{' '}
                     </Card.Text>
                 </Card.Body>
-                <Card.Footer>
-                    <small className="text-muted">Last updated 2 mins ago</small>
-                </Card.Footer>
             </Card>
             <Card>
                 <Card.Img variant="top" src={blog3} />
@@ -45,9 +39,6 @@ function blog() {
                         show that equal height action.
                     </Card.Text>
                 </Card.Body>
-                <Card.Footer>
-                    <small className="text-muted">Last updated 1 mins ago</small>
-                </Card.Footer>
             </Card>
         </CardDeck>
     )

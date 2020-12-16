@@ -35,7 +35,7 @@ body {
   height: 100%;
   background-attachment: fixed;
   background-position: center center;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 .slide2 span {
   background: rgba(0, 0, 0, 0.3);
@@ -104,4 +104,7 @@ body {
   100% {
     left: 0;
   }
+}
+
+@media screen and (max-width: 768px) {
 }

@@ -15,7 +15,7 @@ function Navbar() {
     }
     }, []);
     return (
-        <nav class="navbar bg-dark-theme navbar-expand-md navbar-medium sticky-top">
+        <nav class="navbar bg-dark-theme navbar-expand-lg navbar-medium sticky-top">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

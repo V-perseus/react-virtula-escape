@@ -1,11 +1,11 @@
 import React from 'react';
-import LabEscape from './components/gamelists/LabEscape';
-import teamwork from './assets/teamwork.png';
-import clock from './assets/clock.png';
-import heart from './assets/heart.png';
-import Testimonial from './components/testimonial/Testimonial';
-import Blog from './components/blog/Blog';
-import arrow from './assets/go_down_arrow.gif'
+import LabEscape from '../components/gamelists/LabEscape';
+import teamwork from '../assets/teamwork.png';
+import clock from '../assets/clock.png';
+import heart from '../assets/heart.png';
+import Testimonial from '../components/testimonial/Testimonial';
+import Blog from '../components/blog/Blog';
+import arrow from '../assets/go_down_arrow.gif'
 import './Home.css';
 
 function Home() {

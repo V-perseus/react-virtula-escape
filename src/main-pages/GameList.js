@@ -1,12 +1,12 @@
 import React from 'react';
 import './GameList.css';
 import {Card, Container, Col, Row} from 'react-bootstrap';
-import lab from './assets/lab.jpg';
-import castle from './assets/castle.jpg';
-import spaceship from './assets/spaceship.jpg';
-import jungle from './assets/jungle.jpg'
+import lab from '../assets/lab.jpg';
+import castle from '../assets/castle.jpg';
+import spaceship from '../assets/spaceship.jpg';
+import jungle from '../assets/jungle.jpg'
 import styled from 'styled-components';
-import Carousel from './components/carousel/Carousel';
+import Carousel from '../components/carousel/Carousel';
 import {FaLock} from 'react-icons/fa';
 import {BsPeopleFill} from 'react-icons/bs';
 import {AiOutlineClockCircle} from 'react-icons/ai';

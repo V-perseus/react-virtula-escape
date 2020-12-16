@@ -1,7 +1,6 @@
 import React from 'react';
-import CastleSlider from './components/castle-img-slide/CastleSlider';
-import './Castle.css';
-import VideoPlayer from './components/video-player/VideoPlayer';
+import NabVideo from '../components/nab-video/NabVideo';
+import NabSlide from '../components/nab-img-slider/NabSlide';
 import {VscLock} from 'react-icons/vsc';
 import {VscUnlock} from 'react-icons/vsc';
 import {GrGroup} from 'react-icons/gr';
@@ -9,22 +8,20 @@ import {BiTime} from 'react-icons/bi';
 import {FaPhoneAlt} from 'react-icons/fa';
 import {AiTwotoneMail} from 'react-icons/ai';
 import {Button} from 'react-bootstrap';
-import Chart from './components/game-skill/Chart';
-import Calendar from './components/calender/Calendar';
-//import GameDetail from './components/game-detail/GameDetail';
+import Chart from '../components/game-skill/Chart';
+import './Nab.css';
 
-function Castle() {
+function Nab() {
     return (
         <div>
             <div className="castle">
-                <CastleSlider />
+                <NabSlide />
             </div>
             <div className="video mb-5">
-                <div className="title-castle d-flex justify-content-center align-items-center">
+                <div className="nab-video-top">
                 </div>
-                <VideoPlayer />
+                <NabVideo />
             </div>
-            {/* <GameDetail /> */}
             <div className="container-fluid">
                 <div className="row p-0 m-0">
                     <div className="row p-0 m-0 col-md-12 d-flex justify-content-center align-items-center">
@@ -32,14 +29,14 @@ function Castle() {
                             <div className="difficulty col-md-12 d-flex justify-content-center align-items-center mb-3">
                                 <h1 className="text-center">DIFFICLULTY</h1>
                             </div>
-                            <div className="col-md-12 d-flex justify-content-center align-items-center lock-items">
+                            <div className="col-md-12 d-flex justify-content-center align-items-center lock-items-nab">
                                 <VscLock className="lock" />
                                 <VscLock className="lock" />
                                 <VscLock className="lock" />
                                 <VscUnlock className="unlock" />
                                 <VscUnlock className="unlock" />
                             </div>
-                            <div className="col-md-12  justify-content-center align-items-center  level">
+                            <div className="col-md-12  justify-content-center align-items-center  level-nab">
                                 <h3>STAGE 1 : LEVEL 2</h3>
                                 <h3>STAGE 2 : LEVEL 3</h3>
                                 <h3>STAGE 3 : LEVEL 4</h3>
@@ -67,15 +64,15 @@ function Castle() {
                                 <h1 className="text-center">TIME</h1>
                             </div>
                             <div className="col-md-12 d-flex justify-content-center text-right align-items-center row p-0 m-0">
-                                <div className="col-md-12 row p-0 m-0 time-clock">
+                                <div className="col-md-12 row p-0 m-0 time-clock-nab">
                                     <div className="col-md-6 col-6">
                                         <BiTime className="clock" />
                                     </div>
-                                    <div className="col-md-6 col-6 text-left minute mt-2">
+                                    <div className="col-md-6 col-6 text-left minute-nab mt-2">
                                         <h3>60 Mins</h3>
                                     </div>
                                 </div>
-                                <div className="col-md-12 row d-flex p-0 m-0 mt-3 contact-information">
+                                <div className="col-md-12 row d-flex p-0 m-0 mt-3 contact-information-nab">
                                     <div className="col-md-12 d-flex justify-content-center text-right align-items-center">
                                         <div className="text-right phone-icon mr-3">
                                             <FaPhoneAlt className="phone" />
@@ -108,7 +105,7 @@ function Castle() {
                             </div>
                             <div className="col-md-12">The story starts when people trapped in wormholes that started appearing around the world, which transported the individuals to the prison of an abandoned/destroyed castle. In an attempt to get out of the dungeon, players, by familiarizing themselves with the environment, learn that they are in a completely different world and they have little chance of returning home unless they start working together as a team to get to a movement device (gate) located at the very top of the crumbling castle.</div>
                         </div>
-                        <div className="col-md-4 buttons row p-0 m-0 castle-button">
+                        <div className="col-md-4 buttons row p-0 m-0 nab-button">
                             <div className="col-md-12 text-center align-items-center justify-items-center pt-5">
                                 <Button className="button"><h4 className="mt-2">Practice Now!</h4></Button>
                             </div>
@@ -120,4 +117,4 @@ function Castle() {
     )
 }
 
-export default Castle
+export default Nab

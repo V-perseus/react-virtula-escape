@@ -16,3 +16,20 @@
 .footer-text {
   color: #007bff !important;
 }
+
+@media screen and (max-width: 550px) {
+  .footer h1 {
+    font-size: 2rem;
+  }
+  .footer-logo img {
+    width: 15rem;
+  }
+  .links h2 {
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .address h2 {
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+  }
+}

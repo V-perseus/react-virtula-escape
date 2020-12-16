@@ -43,4 +43,5 @@ $( document ).ready(function() {
         $div.remove();
       }, 2000);
     });
+
 })

@@ -1,6 +1,6 @@
 .schedule-bg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
-    url(./assets/escape_room.jpg);
+    url(../assets/escape_room.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -14,4 +14,19 @@
 .calendar-schedule {
   overflow-y: scroll;
   height: 613px;
+}
+@media screen and (max-width: 510px) {
+  .schedule-bg h1 {
+    font-size: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 15rem;
+    padding-left: 3rem;
+  }
+  .faq-bg h1 {
+    color: white !important;
+    padding-top: 5rem;
+    padding-bottom: 15rem;
+    padding-left: 3rem;
+    font-size: 2rem;
+  }
 }

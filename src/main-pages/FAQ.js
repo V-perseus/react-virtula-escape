@@ -1,6 +1,6 @@
 import React from 'react';
 import './FAQ.css';
-import FaqMain from './components/faq-main/FaqMain';
+import FaqMain from '../components/faq-main/FaqMain';
 
 
 function FAQ() {

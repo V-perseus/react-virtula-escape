@@ -67,3 +67,21 @@
 .castle-button {
   margin-top: 4rem !important;
 }
+
+@media screen and (max-width: 510px) {
+  .lock-items {
+    margin-bottom: 4rem !important;
+  }
+  .level {
+    margin-bottom: 6rem !important;
+  }
+  .time-clock {
+    margin-bottom: 0 !important;
+  }
+  .castle-button {
+    margin-top: 0 !important;
+  }
+  .contact-information {
+    margin: 0 !important;
+  }
+}

@@ -63,7 +63,7 @@
   border-radius: 20px;
 }
 .schedule-games {
-  background: url(./assets/heading.png) !important;
+  background: url(../assets/heading.png) !important;
 }
 .calender {
   overflow-y: scroll;
@@ -78,4 +78,22 @@
 .nab-video-top {
   background-color: white !important;
   margin: 40px !important;
+}
+
+@media screen and (max-width: 510px) {
+  .lock-items-nab {
+    margin-bottom: 4rem !important;
+  }
+  .level-nab {
+    margin-bottom: 6rem !important;
+  }
+  .time-clock-nab {
+    margin-bottom: 0 !important;
+  }
+  .nab-button {
+    margin-top: 0 !important;
+  }
+  .contact-information-nab {
+    margin: 0 !important;
+  }
 }

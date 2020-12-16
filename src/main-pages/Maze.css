@@ -1,0 +1,90 @@
+.maze-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0.5, 0, 0, 0.9)),
+    url(../assets/maze1.png);
+  background-repeat: no-repeat;
+  height: 80vh;
+  background-size: 100% 100%;
+}
+.text-maze h1 {
+  color: white;
+  font-size: 4rem !important;
+}
+.maze-content-background {
+  background-color: #030502;
+}
+.lock-key-1 .lock-maze-1 {
+  color: red;
+  height: 30px;
+  width: 40px;
+}
+.lock-key-1 .lock-maze {
+  color: #5a5a5a;
+  height: 30px;
+  width: 40px;
+}
+.lock-key-1 h4 {
+  color: white;
+}
+.lock-key-1 {
+  border-right: 1px solid #5a5a5a;
+}
+.lock-key-2 {
+  border-right: 1px solid #5a5a5a;
+}
+.lock-key-2 .people {
+  color: #c2c2c2;
+  height: 30px;
+  width: 40px;
+}
+.lock-key-2 p {
+  color: #c2c2c2;
+  font-size: 20px;
+}
+.lock-key-2 h4 {
+  color: white;
+}
+.lock-key-3 .clock {
+  color: #c2c2c2;
+  height: 30px;
+  width: 40px;
+}
+.lock-key-3 p {
+  color: #c2c2c2;
+  font-size: 20px;
+}
+.lock-key-3 h4 {
+  color: white;
+}
+.maze-desc h6 {
+  color: #446471;
+}
+.mt-5-btn {
+  margin-top: 7rem;
+}
+.maze-main-con {
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+}
+.contact-maze h4 {
+  color: #daf1c4;
+}
+.contact-maze a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 550px) {
+  .text-maze h1 {
+    font-size: 3rem !important;
+  }
+  .maze-background {
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lock-key-1 {
+    border: none;
+  }
+  .lock-key-2 {
+    border: none;
+  }
+}

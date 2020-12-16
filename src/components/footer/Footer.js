@@ -13,7 +13,7 @@ function footer() {
                             <h1>INFORMATION ABOUT US</h1>
                         </div>
                     </div>
-                    <div className="adress col-md-6 row p-0 m-0 d-flex justify-content-center align-items-center">
+                    <div className="address col-md-6 row p-0 m-0 d-flex justify-content-center align-items-center">
                         <div className="text-center footer-text">
                             <h2 className="mb-5">OUR ADDRESS</h2>
                             <p>ENCADE Corporation</p>
