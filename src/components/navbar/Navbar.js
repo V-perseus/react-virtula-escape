@@ -39,6 +39,16 @@ function Navbar() {
                             <Link to="/castle-escape" class="dropdown-item" >Castle Escape</Link>
                         </div>
                     </li>
+                    <li class="nav-item dropdown ">
+                        <Link to="#" class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Practice Games
+                        </Link>
+                        <div class="dropdown-menu bg-dark-theme" aria-labelledby="navbarDropdownMenuLink">
+                            <Link to="/maze-escape" class="dropdown-item">Maze Escape</Link>
+                            <Link to="/cube-escape" class="dropdown-item" >Cube Escape</Link>
+                            <Link to="/lost-found-escape" class="dropdown-item" >Lost & Found Escape</Link>
+                        </div>
+                    </li>
                     <li class="nav-item">
                         <Link to="/to-do" class="nav-link" >To do list before you play</Link>
                     </li>
@@ -53,8 +63,8 @@ function Navbar() {
                     </li>
                 </ul>
                 <ul  class="navbar-nav mr-auto">
-                    <li class="nav-item"><Link to="/login">Login</Link></li>
-                    <li class="nav-item"><Link to="/signup">Sign Up</Link></li>
+                    <li class="nav-item"><Link to="/login" class="nav-link">Login</Link></li>
+                    <li class="nav-item"><Link to="/signup" class="nav-link">Sign Up</Link></li>
                 </ul>
             </div>
             <div className="login row p-0 m-0">

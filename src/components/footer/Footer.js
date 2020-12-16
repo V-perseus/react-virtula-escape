@@ -14,7 +14,7 @@ function footer() {
                         </div>
                     </div>
                     <div className="adress col-md-6 row p-0 m-0 d-flex justify-content-center align-items-center">
-                        <div className="text-left footer-text">
+                        <div className="text-center footer-text">
                             <h2 className="mb-5">OUR ADDRESS</h2>
                             <p>ENCADE Corporation</p>
                             <p>https://encade.org</p>
@@ -23,7 +23,7 @@ function footer() {
                         </div>
                     </div>
                     <div className="links col-md-6 row p-0 m-0 d-flex justify-content-center align-items-center">
-                        <div className="text-left footer-text">
+                        <div className="text-center footer-text">
                             <h2 className="mb-5">USEFUL LINKS</h2>
                             <p><Link to ="/">Home</Link></p>
                             <p><Link to ="/to-do">To do list before you play</Link></p>

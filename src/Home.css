@@ -83,3 +83,9 @@
 .bg-control {
   background-color: #2c2a2d !important;
 }
+
+@media screen and (max-width: 820px) {
+  .quote img {
+    width: 15rem;
+  }
+}
