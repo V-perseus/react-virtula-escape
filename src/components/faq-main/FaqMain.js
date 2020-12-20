@@ -38,10 +38,10 @@ const data = {
  
 const styles = {
     bgColor: 'white',
-    titleTextColor: "blue",
-    rowTitleColor: "blue",
+    titleTextColor: "black",
+    rowTitleColor: "black",
     rowContentColor: 'grey',
-    arrowColor: "red",
+    arrowColor: "black",
 };
  
 const config = {

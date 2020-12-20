@@ -67,7 +67,9 @@
 .castle-button {
   margin-top: 4rem !important;
 }
-
+.difficulty-stage {
+  height: 100%;
+}
 @media screen and (max-width: 510px) {
   .lock-items {
     margin-bottom: 4rem !important;
@@ -83,5 +85,8 @@
   }
   .contact-information {
     margin: 0 !important;
+  }
+  .difficulty-stage {
+    height: auto;
   }
 }

@@ -64,6 +64,11 @@ const Styles = styled.div`
             opacity: 0;
         }
     }
+    @media (max-width: 510px) {
+        .image {
+            height: auto;
+        }
+    }
     
 
 `
@@ -73,11 +78,11 @@ function LabEscape() {
     return (
         <Styles>
             <Container>
-                <Row className="justify-content-md-center">
+                <Row className="justify-content-md-center lab-escape-section">
                     <Col md={12} className="d-flex mb-10">
                         <Row>
                             <Col className="p-0 m-0" xs={12} lg={8}>
-                                <Card.Img className="image py-md-5" variant="top" src={lab} />
+                                <Card.Img className="image py-md-5 lab-image" variant="top" src={lab} />
                             </Col>
                             <Col className="p-0 m-0 detail" xs={12} lg={4}>
                                 <Card  className="desc rounded-0 card-con" style={{ height: '35rem' }}>
@@ -107,8 +112,8 @@ function LabEscape() {
                                             </div>
                                         </Card.Subtitle>
                                         <Card.Text className="text-gray-card">
-                                            <p>LAB ESCAPE is a virtual team escape room focusing on improving team communication, collaboration, and problem-solving skills. It is a fun and challenging team-building exercise. It is designed to involve everyone in the team and harness the power of all.
-                                                </p>
+                                            <span>LAB ESCAPE is a virtual team escape room focusing on improving team communication, collaboration, and problem-solving skills. It is a fun and challenging team-building exercise. It is designed to involve everyone in the team and harness the power of all.
+                                                </span>
                                         </Card.Text>
                                         <Card.Link>
                                             <button className="ripple mr-2" data-ripple-color="#ffffff">Practice Now</button>
@@ -149,8 +154,8 @@ function LabEscape() {
                                             </div>
                                         </Card.Subtitle>
                                         <Card.Text className="text-gray-card">
-                                            <p>CASTLE ESCAPE is a virtual escape room is designed for a larger team-building exercise and intended to harness and improve the different team and individual skills, such as negotiation, teamwork, problem-solving, communication, creativity, and risk-taking.
-                                                 </p>
+                                            <span>CASTLE ESCAPE is a virtual escape room is designed for a larger team-building exercise and intended to harness and improve the different team and individual skills, such as negotiation, teamwork, problem-solving, communication, creativity, and risk-taking.
+                                                 </span>
                                         </Card.Text>
                                         <Card.Link>
                                             <button className="ripple mr-2" data-ripple-color="#ffffff">Practice Now</button>

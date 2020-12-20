@@ -9,7 +9,6 @@
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^4.5.3",
     "react": "^17.0.1",
-    "react-awesome-player": "^1.1.0",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
     "react-faq-component": "^1.2.1",
@@ -19,9 +18,11 @@
     "react-responsive-carousel": "^3.2.11",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "react-youtube": "^7.13.0",
     "redux": "^4.0.5",
     "styled-components": "^5.2.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "yarn": "^1.22.10"
   },
   "scripts": {
     "start": "react-scripts start",

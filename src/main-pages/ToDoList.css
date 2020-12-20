@@ -18,7 +18,9 @@
   .todo-bg h1 {
     padding-top: 5rem;
     padding-bottom: 15rem;
-    padding-left: 3rem;
+    /* padding-left: 3rem; */
     font-size: 2rem;
+    text-align: center;
+    padding-left: 0px;
   }
 }

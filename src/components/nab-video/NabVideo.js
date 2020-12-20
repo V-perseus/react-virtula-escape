@@ -1,65 +1,42 @@
 import React from 'react'
-import ReactAwesomePlayer from 'react-awesome-player'
+import YouTube from 'react-youtube';
+import styled from 'styled-components';
 import video_over_img from '../../assets/bg-wave-sym.png'
-import './NabVideo.css';
 
-export default class App extends React.Component {
-  state = {
-    options: {
-      poster: "https://virtual-escape.encade.org/wp-content/uploads/2018/10/Frontdoor-1600x968-1.png",
-      sources: [{
-        type: "video/mp4",
-        src: "https://cdn.theguardian.tv/webM/2015/07/20/150716YesMen_synd_768k_vp8.webm"
-      }],
-      
-    }
-  }
-  loadeddata() {
-    console.log('loadeddata')
-  }
-  canplay() {
-    console.log('canplay')
-  }
-  canplaythrough() {
-    console.log('canplaythrough')
-  }
-  play() {
-    console.log('play')
-  }
-  pause() {
-    console.log('pause')
-  }
-  waiting() {
-    console.log('waiting')
-  }
-  playing() {
-    console.log('playing')
-  }
-  ended() {
-    console.log('ended')
-  }
-  error() {
-    console.log('error')
-  }
+const StylesImg = styled.img`
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+`
+const VideoPlay = () => {
+  const opts = {
+    height: '100%',
+    width: '100%',
+    playerVars: {
+      autoplay: 1,
+      controls: 0,
+      showinfo: 0,
+      mute: 1,
+      autohide: 1,
+      modestbranding: 1,
+      rel: 1,
+    },
+  };
 
-  render () {
-    const { options } = this.state
-    return (
-        <div className="position-relative">
-            <ReactAwesomePlayer
-                options={options}
-                loadeddata={this.loadeddata}
-                canplay={this.canplay}
-                canplaythrough={this.canplaythrough}
-                play={this.play}
-                pause={this.pause}
-                waiting={this.waiting}
-                playing={this.playing}
-                ended={this.ended}
-                error={this.error}
-                />
-            <img src={video_over_img} className="position-absolute video-over-image" alt=""/>
-        </div>
-    );
-  }
+  return (
+    <div className="position-relative">
+      <YouTube
+        videoId="kKUeJrnw9rM"
+        opts={opts}
+        onEnd={_onRestart}
+      />
+      <StylesImg src={video_over_img} alt=""/>
+    </div>
+    
+  )
 }
+
+const   _onRestart = (event) => {
+  event.target.playVideo();
+}
+export default VideoPlay

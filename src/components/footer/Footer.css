@@ -14,9 +14,15 @@
   width: 20rem;
 }
 .footer-text {
-  color: #007bff !important;
+  color: white !important;
 }
-
+.footer-text a {
+  color: white;
+  transition: all 0.3s linear;
+}
+.footer-text a:hover {
+  color: #fed318;
+}
 @media screen and (max-width: 550px) {
   .footer h1 {
     font-size: 2rem;

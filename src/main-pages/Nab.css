@@ -79,7 +79,9 @@
   background-color: white !important;
   margin: 40px !important;
 }
-
+.difficulty-stage {
+  height: 100%;
+}
 @media screen and (max-width: 510px) {
   .lock-items-nab {
     margin-bottom: 4rem !important;
@@ -95,5 +97,8 @@
   }
   .contact-information-nab {
     margin: 0 !important;
+  }
+  .difficulty-stage {
+    height: auto;
   }
 }

@@ -1,8 +1,6 @@
 import React from 'react';
 import NabVideo from '../components/nab-video/NabVideo';
 import NabSlide from '../components/nab-img-slider/NabSlide';
-import {VscLock} from 'react-icons/vsc';
-import {VscUnlock} from 'react-icons/vsc';
 import {GrGroup} from 'react-icons/gr';
 import {BiTime} from 'react-icons/bi';
 import {FaPhoneAlt} from 'react-icons/fa';
@@ -25,21 +23,14 @@ function Nab() {
             <div className="container-fluid">
                 <div className="row p-0 m-0">
                     <div className="row p-0 m-0 col-md-12 d-flex justify-content-center align-items-center">
-                        <div className="col-md-4 text-center row p-0 m-0">
-                            <div className="difficulty col-md-12 d-flex justify-content-center align-items-center mb-3">
+                        <div className="col-md-4 text-center row p-0 m-0 difficulty-stage">
+                            <div className="difficulty col-md-12 d-flex justify-content-center mb-3">
                                 <h1 className="text-center">DIFFICLULTY</h1>
                             </div>
-                            <div className="col-md-12 d-flex justify-content-center align-items-center lock-items-nab">
-                                <VscLock className="lock" />
-                                <VscLock className="lock" />
-                                <VscLock className="lock" />
-                                <VscUnlock className="unlock" />
-                                <VscUnlock className="unlock" />
-                            </div>
                             <div className="col-md-12  justify-content-center align-items-center  level-nab">
-                                <h3>STAGE 1 : LEVEL 2</h3>
-                                <h3>STAGE 2 : LEVEL 3</h3>
-                                <h3>STAGE 3 : LEVEL 4</h3>
+                                <h3>STAGE 1 : 2</h3>
+                                <h3>STAGE 2 : 3</h3>
+                                <h3>STAGE 3 : 4</h3>
                             </div>
                         </div>
                         <div className="col-md-4 text-center row p-0 m-0">
