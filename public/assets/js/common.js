@@ -6,17 +6,17 @@ $( document ).ready(function() {
     
     let last_known_scroll_position = 0;
 
-    window.addEventListener('scroll', function(e) {
-		last_known_scroll_position = window.scrollY;
-		if (last_known_scroll_position <= 370) {
-			navbar[0].classList.remove('bg-transparent');
-			navbar[0].classList.add('bg-dark-theme');
-		}
-		else{
-			navbar[0].classList.remove('bg-dark-theme');
-			navbar[0].classList.add('bg-transparent');
-		}
-    });
+    // window.addEventListener('scroll', function(e) {
+		// last_known_scroll_position = window.scrollY;
+		// if (last_known_scroll_position <= 370) {
+		// 	navbar[0].classList.remove('bg-transparent');
+		// 	navbar[0].classList.add('bg-dark-theme');
+		// }
+		// else{
+		// 	navbar[0].classList.remove('bg-dark-theme');
+		// 	navbar[0].classList.add('bg-transparent');
+		// }
+    // });
 
 
     //ripple button
