@@ -28,7 +28,6 @@ function footer() {
                             <div><Link to ="/">Home</Link></div>
                             <div><Link to ="/to-do">To do list before you play</Link></div>
                             <div><Link to ="/faq">FAQ</Link></div>
-                            <div><Link to ="/schedule">Schedule</Link></div>
                             <div><Link to ="/dashboard">Dashboard</Link></div>
                         </div>
                     </div>
