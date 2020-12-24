@@ -61,6 +61,7 @@ function Navbar() {
                 </ul>
                 <ul  className="navbar-nav mr-auto">
                     <li className="nav-item"><Link to="/login" className="nav-link">Login</Link></li>
+                    <li className="nav-item"><Link to="/log-out" className="nav-link">Log out</Link></li>
                     <li className="nav-item"><Link to="/signup" className="nav-link">Sign Up</Link></li>
                 </ul>
             </div>
