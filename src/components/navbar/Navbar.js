@@ -65,9 +65,7 @@ function Navbar() {
                     <li className="nav-item"><Link to="/signup" className="nav-link">Sign Up</Link></li>
                 </ul>
             </div>
-            <div className="login row p-0 m-0">
-                
-            </div>
+            
         </nav>
     )
 }
