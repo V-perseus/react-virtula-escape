@@ -133,8 +133,8 @@ function LabEscape() {
                                             <FaLock className="key-icon red" />
                                             <FaLock className="key-icon red" />
                                             <FaLock className="key-icon red" />
-                                            <FaLock className="key-icon " />
-                                            <FaLock className="key-icon " />
+                                            {/* <FaLock className="key-icon " />
+                                            <FaLock className="key-icon " /> */}
                                         </div>
                                         <Card.Title>
                                             <h4 className="text-white">Castle Escape</h4>    
