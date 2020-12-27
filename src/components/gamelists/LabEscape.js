@@ -130,9 +130,9 @@ function LabEscape() {
                                 <Card  className="desc rounded-0 card-con" style={{ height: '35rem' }}>
                                     <Card.Body className="py-5 px-3" >
                                         <div className="key-con pb-4">
+                                            {/* <FaLock className="key-icon red" />
                                             <FaLock className="key-icon red" />
-                                            <FaLock className="key-icon red" />
-                                            <FaLock className="key-icon red" />
+                                            <FaLock className="key-icon red" /> */}
                                             <FaLock className="key-icon " />
                                             <FaLock className="key-icon " />
                                         </div>
