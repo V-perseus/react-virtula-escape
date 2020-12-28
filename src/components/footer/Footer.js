@@ -10,7 +10,7 @@ function footer() {
                 <div className="row d-flex p-0 m-0">
                     <div className="col-md-12 d-flex justify-content-center align-items-center mb-5">
                         <div className="text-center mt-5">
-                            {/* <h1>INFORMATION ABOUT US</h1> */}
+                            <h1>INFORMATION ABOUT US</h1>
                         </div>
                     </div>
                     <div className="address col-md-6 row p-0 m-0 d-flex justify-content-center align-items-center">
