@@ -19,7 +19,7 @@ function footer() {
                             <p>ENCADE Corporation</p>
                             <p>https://encade.org</p>
                             <p>Email:general.inquiry@encade.org</p>
-                            <p>Tel: +1(613)416-8996</p>
+                            {/* <p>Tel: +1(613)416-8996</p> */}
                         </div>
                     </div>
                     <div className="links col-md-6 row p-0 m-0 d-flex justify-content-center align-items-center">
