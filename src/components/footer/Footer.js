@@ -16,7 +16,7 @@ function footer() {
                     <div className="address col-md-6 row p-0 m-0 d-flex justify-content-center align-items-center">
                         <div className="text-center footer-text">
                             <h2 className="mb-5">OUR ADDRESS</h2>
-                            <p>ENCADE Corporation</p>
+                            {/* <p>ENCADE Corporation</p> */}
                             <p>https://encade.org</p>
                             <p>Email:general.inquiry@encade.org</p>
                             <p>Tel: +1(613)416-8996</p>
