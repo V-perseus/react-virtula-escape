@@ -5,7 +5,7 @@ const data = {
     title: "TO DO LIST BEFORE YOU PLAY",
     rows: [
         {
-            // title: "Computer Devices",
+            title: "Computer Devices",
             content: "You can use any computing device running Windows 10 or Mac OS.Devices such as laptops and desktops are the only devices that can work appropriately for such games.Devices that you CAN NOT use: - mobile devices - tablets, and - any device that does not have a proper mouse or a keyboard.",
         },
         {
