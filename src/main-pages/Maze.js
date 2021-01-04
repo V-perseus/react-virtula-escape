@@ -88,7 +88,7 @@ function Maze() {
                                             <AiTwotoneMail className="mail" />
                                         </div>
                                         <div className="text-left phone-number mt-1">
-                                            {/* <a href="#"><h4>: SUPPORT@ENCADE.com</h4></a> */}
+                                            <a href="#"><h4>: SUPPORT@ENCADE.com</h4></a>
                                         </div>
                                     </div>
                                     <div className="col-md-12 d-flex justify-content-center text-center align-items-center mt-5-btn">
